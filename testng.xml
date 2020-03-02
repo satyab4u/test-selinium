@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/Satya/Documents/venky/test-selinium/src/test/java/org/example/ChromeGoogleTest.java">
+        <classes>
+            <class name="org.example.ChromeGoogleTest">
+                <methods>
+                    <include name="testChromeBrowser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
